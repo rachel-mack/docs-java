@@ -106,7 +106,7 @@ how to include your expression in common aggregates builder methods:
 - ``group(<expression>)``
 
 To learn more about these methods, see
-:ref:`Aggregates Builders <aggregates-builders>`.
+:ref:`Aggregates Builders <java-aggregates-builders>`.
 
 The examples use the ``asList()`` method to create a list of
 aggregation stages. This list is passed to the ``aggregate()`` method of
@@ -198,7 +198,7 @@ expected parameters and implementation.
    The driver does not provide methods for all aggregation pipeline operators in
    the Query API. If you must use an unsupported operation in an
    aggregation, you must define the entire expression using the BSON ``Document``
-   type. To learn more about the ``Document`` type, see :ref:`<fundamentals-documents>`.
+   type. To learn more about the ``Document`` type, see :ref:`<java-documents>`.
 
 Arithmetic Operations
 ~~~~~~~~~~~~~~~~~~~~~

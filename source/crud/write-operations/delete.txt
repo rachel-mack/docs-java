@@ -1,3 +1,4 @@
+.. _java-delete:
 .. _java-fundamentals-delete:
 
 ================

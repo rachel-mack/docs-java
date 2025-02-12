@@ -1,10 +1,8 @@
-.. _java-fundamentals-cursor:
+.. _java-cursor:
 
 =========================
 Access Data From a Cursor
 =========================
-
-
 
 .. contents:: On this page
    :local:
@@ -182,7 +180,7 @@ iterate through results in a functional style:
    ``MongoCursor`` allows us to ensure the cursor closes as shown in the
    :ref:`cursor cleanup section <cursor_cleanup>`.
 
-.. _java-fundamentals-cursor-conditional-iteration:
+.. _java-cursor-conditional-iteration:
 
 Conditional Iteration
 ~~~~~~~~~~~~~~~~~~~~~

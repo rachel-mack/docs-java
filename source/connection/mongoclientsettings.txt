@@ -94,7 +94,7 @@ connection behavior:
        :ref:`TLS/SSL settings <mcs-ssl-settings>`.
 
    * - ``autoEncryptionSettings()``
-     - | Sets the :ref:`auto-encryption settings <csfle-fundamentals-automatic-encryption>`.
+     - | Sets the :manual:`auto-encryption settings </core/csfle/fundamentals/automatic-encryption/>`.
        |
        | If you omit ``keyVaultClient`` or set
          ``bypassAutomaticEncryption`` to false in your
@@ -116,7 +116,7 @@ connection behavior:
        messages to the server.
 
    * - ``credential()``
-     - Sets the :ref:`credential <authentication-mechanisms-java>`.
+     - Sets the :ref:`credential <java-authentication-mechanisms>`.
 
    * - ``readConcern()``
      - Sets the :manual:`read concern </reference/read-concern/>`.
@@ -203,7 +203,7 @@ This example demonstrates specifying a ``ConnectionString``:
    logger to the ``INFO`` level.
 
    To learn more about logging with the {+driver-long+}, see the 
-   :ref:`java-fundamentals-logging` guide. 
+   :ref:`java-logging` guide. 
 
 .. _mcs-cluster-settings:
 

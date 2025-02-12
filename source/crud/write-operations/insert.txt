@@ -1,3 +1,4 @@
+.. _java-insert:
 .. _java-fundamentals-insert:
 
 =================

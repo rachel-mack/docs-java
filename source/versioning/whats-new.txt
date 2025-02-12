@@ -47,7 +47,7 @@ and features:
 
    .. replacement:: update-replace-example-link
       
-      the :ref:`java-fundamentals-change-document` and :ref:`java-fundamentals-bulkwrite` 
+      the :ref:`java-change-document` and :ref:`java-bulkwrite` 
       guides
 
 - Adds a client bulk write API that allows you to perform write operations on multiple
@@ -104,7 +104,7 @@ and features:
   
    .. replacement:: encrypt-link
 
-      the :ref:`In-Use Encryption <java-fle>` guide
+      the :ref:`In-Use Encryption <java-csfle>` guide
 
    .. replacement:: vector-search-link
 

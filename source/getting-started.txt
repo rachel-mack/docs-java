@@ -1,4 +1,5 @@
 .. _java-sync-quickstart:
+.. _getting-started:
 
 ===============
 Getting Started

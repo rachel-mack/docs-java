@@ -20,7 +20,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#find()>`__
        | :ref:`Usage Example <java-usage-findone>`
-       | :ref:`Fundamentals <java-fundamentals-retrieve-data>`
+       | :ref:`Full Description <java-retrieve-data>`
 
      - .. io-code-block::
           :copyable: true
@@ -40,7 +40,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#find(org.bson.conversions.Bson)>`__
        | :ref:`Usage Example <java-usage-find>`
-       | :ref:`Fundamentals <java-fundamentals-retrieve-data>`
+       | :ref:`Full Description <java-retrieve-data>`
 
      - .. io-code-block::
           :copyable: true
@@ -64,7 +64,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#insertOne(TDocument)>`__
        | :ref:`Usage Example <java-usage-insertone>`
-       | :ref:`Fundamentals <java-fundamentals-insert>`
+       | :ref:`Full Description <java-insert>`
 
      - .. code-block:: java
           :copyable: true
@@ -75,7 +75,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#insertMany(java.util.List)>`__
        | :ref:`Usage Example <java-usage-insertmany>`
-       | :ref:`Fundamentals <java-fundamentals-insert>`
+       | :ref:`Full Description <java-insert>`
 
      - .. code-block:: java
           :copyable: true
@@ -89,7 +89,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#updateOne(org.bson.conversions.Bson,org.bson.conversions.Bson)>`__
        | :ref:`Usage Example <java-usage-updateone>`
-       | :ref:`Fundamentals <java-fundamentals-update>`
+       | :ref:`Full Description <java-update>`
 
      - .. io-code-block::
           :copyable: true
@@ -111,7 +111,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#updateMany(org.bson.conversions.Bson,org.bson.conversions.Bson)>`__
        | :ref:`Usage Example <java-usage-updatemany>`
-       | :ref:`Fundamentals <java-fundamentals-update>`
+       | :ref:`Full Description <java-update>`
 
      - .. io-code-block::
           :copyable: true
@@ -136,7 +136,7 @@ their related reference and API documentation.
    * - | **Update an Array in a Document**
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#updateOne(org.bson.conversions.Bson,org.bson.conversions.Bson)>`__
-       | :ref:`Fundamentals <java-fundamentals-update-array>`
+       | :ref:`Full Description <java-update-array>`
 
      - .. io-code-block::
           :copyable: true
@@ -158,7 +158,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#replaceOne(org.bson.conversions.Bson,TDocument)>`__
        | :ref:`Usage Example <java-usage-replaceone>`
-       | :ref:`Fundamentals <replace-operation>`
+       | :ref:`Full Description <replace-operation>`
 
      - .. io-code-block::
           :copyable: true
@@ -180,7 +180,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#deleteOne(org.bson.conversions.Bson)>`__
        | :ref:`Usage Example <java-usage-deleteone>`
-       | :ref:`Fundamentals <java-fundamentals-delete>`
+       | :ref:`Full Description <java-delete>`
 
      - .. code-block:: java
           :copyable: true
@@ -191,7 +191,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#deleteMany(org.bson.conversions.Bson)>`__ 
        | :ref:`Usage Example <java-usage-deletemany>`
-       | :ref:`Fundamentals <java-fundamentals-delete>`
+       | :ref:`Full Description <java-delete>`
 
      - .. code-block:: java
           :copyable: true
@@ -202,7 +202,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#bulkWrite(java.util.List)>`__
        | :ref:`Usage Example <java-usage-bulkwrite>`
-       | :ref:`Fundamentals <java-fundamentals-bulkwrite>`
+       | :ref:`Full Description <java-bulkwrite>`
 
      - .. code-block:: java
           :copyable: true
@@ -218,7 +218,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#watch(java.util.List)>`__
        | :ref:`Usage Example <java-usage-watch>`
-       | :ref:`Fundamentals <retrieve-watch>`
+       | :ref:`Full Description <retrieve-watch>`
 
      - .. code-block:: java
           :copyable: true
@@ -229,7 +229,7 @@ their related reference and API documentation.
    * - | **Access Data from a Cursor Iteratively**
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCursor.html>`__
-       | :ref:`Fundamentals <java-fundamentals-cursor-conditional-iteration>`
+       | :ref:`Full Description <java-cursor-conditional-iteration>`
 
      - .. io-code-block::
           :copyable: true
@@ -315,7 +315,7 @@ their related reference and API documentation.
    * - | **Limit the Number of Documents Retrieved**
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/FindIterable.html#limit(int)>`__
-       | :ref:`Fundamentals <java-fundamentals-limit>`
+       | :ref:`Full Description <java-limit>`
 
      - .. io-code-block::
           :copyable: true
@@ -337,7 +337,7 @@ their related reference and API documentation.
    * - | **Skip Retrieved Documents**
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/FindIterable.html#skip(int)>`__
-       | :ref:`Fundamentals <java-fundamentals-skip>`
+       | :ref:`Full Description <java-skip>`
 
      - .. io-code-block::
           :copyable: true
@@ -360,7 +360,7 @@ their related reference and API documentation.
    * - | **Sort the Documents When Retrieving Them**
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/FindIterable.html#sort(org.bson.conversions.Bson)>`__
-       | :ref:`Fundamentals <java-fundamentals-sort>`
+       | :ref:`Full Description <java-sort>`
 
      - .. io-code-block::
           :copyable: true
@@ -385,7 +385,7 @@ their related reference and API documentation.
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/FindIterable.html#projection(org.bson.conversions.Bson)>`__
        | :ref:`Usage Example <java-usage-find>`
-       | :ref:`Fundamentals <java-fundamentals-project>`
+       | :ref:`Full Description <java-project>`
 
      - .. io-code-block::
           :copyable: true
@@ -410,7 +410,7 @@ their related reference and API documentation.
    * - | **Create an Index**
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#createIndex(org.bson.conversions.Bson)>`__
-       | :ref:`Fundamentals <java-fundamentals-indexes>`
+       | :ref:`Full Description <java-indexes>`
 
      - .. code-block:: java
           :copyable: true
@@ -423,7 +423,7 @@ their related reference and API documentation.
    * - | **Search Text**
        |
        | `API Documentation <{+api+}/apidocs/mongodb-driver-sync/com/mongodb/client/MongoCollection.html#find()>`__
-       | :ref:`Fundamentals <java-fundamentals-search-text>`
+       | :ref:`Full Description <java-search-text>`
 
      - .. io-code-block::
           :copyable: true

@@ -1,10 +1,8 @@
-.. _java-fundamentals-retrieve-data:
+.. _java-retrieve-data:
 
 ==============
 Retrieve Data
 ==============
-
-
 
 .. contents:: On this page
    :local:
@@ -70,8 +68,8 @@ To address this scenario, the owner finds orders to match the criteria:
    :start-after: begin findExample
    :end-before: end findExample
 
-For more information about how to build filters, see our :doc:`Filters Builders
-</builders/filters>` guide.
+For more information about how to build filters, see our :ref:`Filters Builders
+<java-filters-builders>` guide.
 
 The following shows the output of the preceding query:
 
@@ -101,7 +99,7 @@ instance of a ``MongoCollection``. This method accepts aggregation
 expressions to run in sequence. To perform aggregations, you can
 define aggregation stages that specify how to match documents, rename
 fields, and group values. For more information, see our
-:doc:`Aggregation </fundamentals/aggregation>` guide.
+:ref:`Aggregation <java-aggregation>` guide.
 
 Example
 ~~~~~~~

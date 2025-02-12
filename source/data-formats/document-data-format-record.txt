@@ -1,3 +1,4 @@
+.. _java-records:
 .. _fundamentals-records:
 
 =============================
@@ -30,7 +31,7 @@ often used to model data and separate business logic from data representation.
    functionality and restrictions of records from `Java 17 Language Updates: Record Classes <https://docs.oracle.com/en/java/javase/17/language/records.html>`__.
 
    If you are using an earlier version of Java, you can use plain old Java
-   objects instead. See the :ref:`<fundamentals-pojos>` guide for
+   objects instead. See the :ref:`<java-pojos>` guide for
    implementation details.
 
 .. note::
@@ -39,7 +40,7 @@ often used to model data and separate business logic from data representation.
    uses the driver to encode or decode Java records, you must add an
    explicit dependency on the ``org.bson.codecs.record`` module. Learn
    more about defining dependencies for OSGi containers in the `IBM OSGi
-   documentation <https://www.ibm.com/docs/en/cics-ts/6.1?topic=server-guidance-using-osgi>`__.
+   documentation <https://www.ibm.com/docs/en/cics-ts/6.x?topic=server-deploying-osgi-bundles-in-jvm>`__.
 
 Serialize and Deserialize a Record
 ----------------------------------
@@ -48,9 +49,9 @@ The driver natively supports encoding and decoding Java records for
 MongoDB read and write operations using the **default codec registry**. The
 default codec registry is a collection of classes called **codecs** that
 define how to convert encode and decode Java types. Learn more about
-codecs and the default codec registry in the guide on :ref:`<fundamentals-codecs>`.
+codecs and the default codec registry in the guide on :ref:`<java-codecs>`.
 
-.. _fundamentals-example-record:
+.. _java-example-record:
 
 Example Record
 ~~~~~~~~~~~~~~
@@ -100,7 +101,7 @@ as shown in the following code:
       DataStorageRecord[productName=1TB SSD, capacity=1.71]
 
 
-.. _fundamentals-records-annotations:
+.. _java-records-annotations:
 
 Specify Component Conversion Using Annotations
 ----------------------------------------------
@@ -219,7 +220,7 @@ execute a find operation on a collection of ``RecordTree`` types:
 
       RecordTree[content=Ranginui, left=RecordTree[content=..., left=RecordTree[content=..., right=RecordTree[content=Ikatere...]]
 
-.. _fundamentals-records-get-codec:
+.. _java-records-get-codec:
 
 Retrieve the Record Codec
 -------------------------
@@ -228,7 +229,7 @@ You can use the ``RecordCodecProvider`` to retrieve the
 record codec. You should use this interface when you want to customize the codec to encode
 and decode Java record objects to and from corresponding BSON types while
 minimizing duplicate code. To learn more about codecs and their usage,
-see :ref:`Codecs <fundamentals-codecs>`.
+see :ref:`Codecs <java-codecs>`.
 
 You can't create a record codec directly, but you can use the
 ``RecordCodecProvider`` to implement the record codec in your code. Learn more

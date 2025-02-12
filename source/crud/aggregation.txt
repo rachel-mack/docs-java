@@ -76,7 +76,7 @@ Useful References
 - :manual:`Aggregation pipeline </core/aggregation-pipeline/>`
 - :manual:`Aggregation stages </meta/aggregation-quick-reference/#stages>`
 - :manual:`Operator expressions </meta/aggregation-quick-reference/#operator-expressions>`
-- :ref:`Aggregation Builders <aggregates-builders>`
+- :ref:`Aggregation Builders <java-aggregates-builders>`
 
 Runnable Examples
 -----------------
@@ -146,7 +146,7 @@ In the following example, the aggregation pipeline:
 
 .. note::
 
-   You can build the expressions used in this example using the :ref:`aggregation builders <aggregates-builders>`.
+   You can build the expressions used in this example using the :ref:`aggregation builders <java-aggregates-builders>`.
 
 .. literalinclude:: /includes/fundamentals/code-snippets/AggTour.java
    :language: java

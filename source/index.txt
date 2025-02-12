@@ -53,11 +53,11 @@ deployments running on one of the following hosted services or editions:
 
 .. include:: /includes/fact-environments.rst
 
-Quick Start
------------
+Getting Started
+---------------
 
 Learn how to establish a connection to MongoDB Atlas and begin
-working with data in the :doc:`Quick Start </quick-start>` section.
+working with data in the :ref:`Getting Started <getting-started>` section.
 
 Quick Reference
 ---------------
@@ -138,7 +138,7 @@ Compatibility
 
 For the compatibility charts that show the recommended Java
 Driver version for each {+mdb-server+} version, see the
-:doc:`Compatibility </compatibility>` section.
+:ref:`Compatibility <java-compatibility-tables>` section.
 
 Upgrade Driver Versions
 -----------------------

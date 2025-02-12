@@ -1,10 +1,8 @@
-.. _java-fundamentals-search-text:
+.. _java-search-text:
 
 ===========
 Search Text
 ===========
-
-
 
 .. contents:: On this page
    :local:
@@ -82,8 +80,8 @@ Text Search
 
 Use the ``Filters.text()`` method to specify a text search. 
 
-The ``Filters.text()`` method uses the :doc:`Filters builder
-</builders/filters>` to define a query filter specifying
+The ``Filters.text()`` method uses the :ref:`Filters builder
+<java-filters-builders>` to define a query filter specifying
 what to search for during the text search. The query filter is
 represented by a :ref:`BSON <bson>` instance. Pass the query filter to the
 ``find()`` method to run a text search. 

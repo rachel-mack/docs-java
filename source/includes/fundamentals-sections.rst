@@ -1,18 +1,18 @@
 Learn how to perform the following tasks using the Java driver in the
 Fundamentals section:
 
-- :doc:`Connect to MongoDB </fundamentals/connection>`
-- :doc:`Use the Stable API </fundamentals/stable-api>`
-- :doc:`Authenticate with MongoDB </fundamentals/auth>`
-- :doc:`Convert between MongoDB Data Formats and Java Objects </fundamentals/data-formats>`
-- :doc:`Read from and Write to MongoDB </fundamentals/crud>`
-- :doc:`Simplify your Code with Builders </fundamentals/builders>`
-- :doc:`Transform your Data </fundamentals/aggregation>`
-- :doc:`Create Aggregation Expressions </fundamentals/aggregation-expression-operations>`
-- :doc:`Create Indexes to Speed Up Queries </fundamentals/indexes>`
-- :doc:`Sort Using Collations </fundamentals/collations>`
-- :doc:`Log Events in the Driver </fundamentals/logging>`
-- :doc:`Monitor Driver Events </fundamentals/monitoring>`
-- :doc:`Store and Retrieve Large Files in MongoDB </fundamentals/gridfs>`
-- :doc:`Encrypt Fields in a Document </fundamentals/encrypt-fields>`
-- :doc:`Use a Time Series Collection </fundamentals/time-series>`
+- :ref:`Connect to MongoDB <java-connection-guide>`
+- :ref:`Use the Stable API <stable-api-java>`
+- :ref:`Authenticate with MongoDB <java-authentication-mechanisms>`
+- :ref:`Convert between MongoDB Data Formats and Java Objects <java-data-formats>`
+- :ref:`Read from and Write to MongoDB <java-crud-operations>`
+- :ref:`Simplify your Code with Builders <java-builders>`
+- :ref:`Transform your Data <java-aggregation>`
+- :ref:`Create Aggregation Expressions <java-aggregation-expression-operations>`
+- :ref:`Create Indexes to Speed Up Queries <java-indexes>`
+- :ref:`Sort Using Collations <java-collations>`
+- :ref:`Log Events in the Driver <java-logging>`
+- :ref:`Monitor Driver Events <java-monitoring>`
+- :ref:`Store and Retrieve Large Files in MongoDB <java-gridfs>`
+- :ref:`Encrypt Fields in a Document <java-csfle>`
+- :ref:`Use a Time Series Collection <java-time-series>`

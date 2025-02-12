@@ -1,3 +1,4 @@
+.. _java-change-streams:
 .. _java-fundamentals-change-streams:
 .. _retrieve-watch:
 

@@ -1,4 +1,4 @@
-.. _java-fundamentals-skip:
+.. _java-skip:
 
 =====================
 Skip Returned Results

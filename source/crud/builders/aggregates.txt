@@ -1,3 +1,5 @@
+.. _java-aggregates-builders:
+
 ===================
 Aggregates Builders
 ===================
@@ -15,12 +17,6 @@ Aggregates Builders
    :depth: 2
    :class: singlecol
 
-.. toctree::
-
-   Atlas Vector Search </builders/vector-search>
-
-.. _aggregates-builders:
-
 Overview
 --------
 
@@ -28,8 +24,7 @@ In this guide, you can learn how to use the `Aggregates <{+api+}/apidocs/mongodb
 class which provides static factory methods that build :manual:`aggregation pipeline
 stages </meta/aggregation-quick-reference/#stages>` in the MongoDB Java driver.
 
-To learn more about aggregation, see our :ref:`Aggregation guide
-<java-aggregation>`. To learn how to create expression operations with
+To learn more about aggregation, see our :ref:`Aggregation guide <java-aggregation>`. To learn how to create expression operations with
 discoverable, typesafe Java methods to use in your aggregations, see
 :ref:`java-aggregation-expression-operations`.
 
@@ -73,7 +68,7 @@ query filter, filtering out documents that do not match.
 .. tip::
 
    The filter can be an instance of any class that implements ``Bson``, but it's
-   convenient to combine with use of the :ref:`Filters <filters-builders>` class.
+   convenient to combine with use of the :ref:`Filters <java-filters-builders>` class.
 
 The following example creates a pipeline stage that matches all documents where the
 ``title`` field is equal to "The Shawshank Redemption":
@@ -95,7 +90,7 @@ in aggregation follows the same rules as :doc:`field projection in queries </cru
 .. tip::
 
    Though the projection can be an instance of any class that implements ``Bson``,
-   it's convenient to combine with use of :ref:`Projections <projections-builders>`.
+   it's convenient to combine with use of :ref:`Projections <java-projections-builders>`.
 
 The following example creates a pipeline stage that excludes the ``_id`` field but
 includes the ``title`` and ``plot`` fields:
@@ -174,7 +169,7 @@ pipeline stage to sort by the specified criteria.
 .. tip::
 
    Though the sort criteria can be an instance of any class that
-   implements ``Bson``, it's convenient to combine with use of :ref:`Sorts <sorts-builders>`.
+   implements ``Bson``, it's convenient to combine with use of :ref:`Sorts <java-sorts-builders>`.
 
 The following example creates a pipeline stage that sorts in descending order according
 to the value of the ``year`` field and then in ascending order according to the

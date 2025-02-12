@@ -185,7 +185,7 @@ check the following items in your code:
 
 - The credentials for the authentication mechanism that you specified are
   correct. To learn how to specify your credentials, see the
-  :ref:`authentication-mechanisms` and :ref:`enterprise-authentication-mechanisms`
+  :ref:`java-authentication-mechanisms` and :ref:`java-enterprise-authentication-mechanisms`
   guides.
 
 - The name of the authentication database that you specified is correct. To

@@ -1,3 +1,4 @@
+.. _java-change-document:
 .. _java-fundamentals-change-document:
 
 ================
@@ -37,7 +38,7 @@ current inventory:
 
 .. _update-operation:
 
-.. _java-fundamentals-update:
+.. _java-update:
 
 Update
 ------
@@ -69,7 +70,7 @@ parameters:
   documents to update in your collection.
 - ``update`` specifies the fields and values to modify in the matching
   document or documents. The examples in this section use the
-  :ref:`updates-builders` to create the update document.
+  :ref:`java-updates-builders` to create the update document.
 - *(Optional)* ``updateOptions`` specifies options that you can set to
   customize how the driver performs the update operation. To learn more
   about this type, see the API documentation for `UpdateOptions

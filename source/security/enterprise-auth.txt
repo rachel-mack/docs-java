@@ -1,3 +1,4 @@
+.. _java-enterprise-authentication-mechanisms:
 .. _enterprise-authentication-mechanisms:
 
 ====================================
@@ -32,9 +33,9 @@ Enterprise Edition:
 - :ref:`MONGODB-OIDC <mongodb-oidc>`
 
 To authenticate using another mechanism, see the
-:doc:`Authentication Mechanisms guide </fundamentals/auth>`. For more
+:ref:`Authentication Mechanisms guide <java-authentication-mechanisms>`. For more
 information on establishing a connection to your MongoDB cluster, read our
-:doc:`Connection Guide </fundamentals/connection>`.
+:ref:`Connection Guide <connect-to-mongodb>`.
 
 Specify an Authentication Mechanism
 -----------------------------------
@@ -219,8 +220,8 @@ to improve performance.
    Windows Active Directory and implementations of single sign-on. See the
    following articles for more information:
 
-   - `JDK-8054026 <https://bugs.openjdk.java.net/browse/JDK-8054026>`__
-   - `JDK-6722928 <https://bugs.openjdk.java.net/browse/JDK-6722928>`__
+   - `JDK-8054026 <https://bugs.openjdk.org/browse/JDK-8054026>`__
+   - `JDK-6722928 <https://bugs.openjdk.org/browse/JDK-6722928>`__
    - `SO 23427343 <https://stackoverflow.com/questions/23427343/cannot-retrieve-tgt-despite-allowtgtsessionkey-registry-entry>`__
 
 

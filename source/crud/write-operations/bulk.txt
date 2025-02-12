@@ -1,3 +1,4 @@
+.. _java-bulkwrite:
 .. _java-fundamentals-bulkwrite:
 
 ===============

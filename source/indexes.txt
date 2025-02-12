@@ -1,4 +1,4 @@
-.. _java-fundamentals-indexes:
+.. _java-indexes:
 
 =======
 Indexes
